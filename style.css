@@ -11,7 +11,7 @@ body {
 .container-calculatrice {
   display: grid;
   width: 400px;
-  margin: 150px auto;
+  margin: 135px auto;
   grid-template-columns: 30% 30% 30% 30%;
   grid-template-rows: 60px repeat(5, 70px);
   border-radius: 4px;
@@ -35,7 +35,7 @@ h3 {
   background: #fff;
   overflow: hidden;
   border: 3px solid rgba(255, 0, 0, 0.637);
-  width: 487.5px;
+  width: 489.5px;
   height: 45px;
   border-radius: 5px;
   position: relative;
