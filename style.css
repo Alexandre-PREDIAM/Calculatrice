@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(#C02425, #F0CB35);
+  background: linear-gradient(to left, #d4171700, #e92525d3);
   height: 100vh;
   overflow-y: hidden;
 }
@@ -11,10 +11,11 @@ body {
 .container-calculatrice {
   display: grid;
   width: 400px;
-  margin: 250px auto;
-  background: rgba(0, 0, 0, 0.644);
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 50px repeat(5, 30px);
+  margin: 150px auto;
+  grid-template-columns: 30% 30% 30% 30%;
+  grid-template-rows: 60px repeat(5, 70px);
+  border-radius: 4px;
+  grid-gap: 5px;
   grid-template-areas: 
   "res res res res"
   "7 8 9 reset"
@@ -23,7 +24,6 @@ body {
   "0 dot plus minus"
   "equal equal times div"
   ;
-  border-radius: 4px;
 }
 
 h3 {
@@ -35,7 +35,7 @@ h3 {
   background: #fff;
   overflow: hidden;
   border: 3px solid rgba(255, 0, 0, 0.637);
-  width: 397px;
+  width: 487.5px;
   height: 45px;
   border-radius: 5px;
   position: relative;
@@ -43,17 +43,18 @@ h3 {
 }
 
 button {
-  background: none;
+  background: #000;
   border: none;
   color: rgba(233, 233, 217, 0.644);
   border: 2px solid rgba(255, 0, 0, 0.637);
   border-radius: 5px;
   cursor: pointer;
+  font-size: 3rem;
   transition: 0.4s ease-in-out;
 }
 
 button:hover {
-  background: #000;
+  background: rgba(0, 0, 0, 0.253);
   color: #fff;
   border: none;
   transition: 0.4s ease-in-out;
